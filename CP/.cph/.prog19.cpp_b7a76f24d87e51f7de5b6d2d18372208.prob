@@ -1,0 +1,1 @@
+{"name":"Local: prog19","url":"/Users/gauravbhardwaj/Desktop/CP/prog19.cpp","tests":[{"id":1670578521520,"input":"4\n6\nabcabc\n6\nabcdef\n4\naaaa\n4\nbaab","output":"YES\nNO\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/gauravbhardwaj/Desktop/CP/prog19.cpp","group":"local","local":true}

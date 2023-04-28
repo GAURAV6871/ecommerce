@@ -1,0 +1,24 @@
+cascading style sheets at the most basic level indicates 
+that the order of css rules matter
+
+Basic CSS selectors
+#id
+*
+element 
+element, element
+element element 
+element > element 
+element + element (for eg p element right after h1 element)
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+for using classes we use
+.class_name
+
+for using div we use id's for eg we give id name as div1 then for using important
+#div1
+
+

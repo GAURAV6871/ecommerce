@@ -1,0 +1,38 @@
+body
+{
+    margin:0px;
+}
+
+
+img
+{
+    width:450px;
+    height:400px;
+    margin:10px;
+    transition: all 0.2 s;
+}
+img:hover
+{
+    transform: scale(1.1);
+}
+
+.container 
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+h1
+{
+    font-family:fantasy;
+    font-size:50px;
+    border-bottom: 2px solid chartreuse;
+    border-right: 2px solid chartreuse;
+    text-align:left;
+    transition: all 0.2s;
+    box-shadow: 4px 4px 5px  grey;
+}
+h1:hover
+{
+    transform: scale(1.1);
+}

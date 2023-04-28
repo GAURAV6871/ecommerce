@@ -1,0 +1,4 @@
+In css flex box is used when only 1 dimension is used.....like different columns are used
+(like a newspaper) and css grid is used when different dimensions are in use(like a magazine).
+
+we will try to learn websites that use both flex box and CSS grids

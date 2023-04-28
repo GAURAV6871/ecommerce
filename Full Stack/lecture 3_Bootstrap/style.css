@@ -1,0 +1,11 @@
+.btn-danger
+{
+    background-color: goldenrod;
+    
+    text-decoration: solid;
+}
+
+.btn-danger:hover
+{
+    background-color: black; 
+}

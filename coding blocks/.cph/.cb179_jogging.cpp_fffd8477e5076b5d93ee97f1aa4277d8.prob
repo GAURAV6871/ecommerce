@@ -1,0 +1,1 @@
+{"name":"Local: cb179_jogging","url":"/Users/gauravbhardwaj/Desktop/coding blocks/cb179_jogging.cpp","tests":[{"id":1656061535014,"input":"3\n1 2\n2 1\n12548 1","output":"2\n2\n588809226"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/gauravbhardwaj/Desktop/coding blocks/cb179_jogging.cpp","group":"local","local":true}

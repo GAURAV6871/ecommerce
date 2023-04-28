@@ -1,0 +1,275 @@
+JAVASCRIPT TYPES
+
+1. Numbers
+2. strings
+3. boolean
+4. undefined
+5. NULL
+6. Symbol( new in ECMAScript 6)
+7. Object
+
+JAVASCRIPT COMPARISONS
+!==
+===
+>=
+<=
+>
+<
+ 
+JAVASCRIPT VARIABLES
+
+var 
+let
+const
+
+
+JAVASCRIPT CONDITIONS
+if
+else 
+else if
+ternary operator 
+switch 
+
+JAVASCRIPT LOGICAL OPERATORS
+&&
+||
+!
+
+
+
+Console.log("Hello")
+This is used to write hello to the console(i.e in the developers tool)
+
+
+JavaScript Functions
+->alert()    //inbuild function
+->prompt()   //inbuild function
+
+
+->In java script we can create our own functions
+
+Steps to make your own function
+1.) BY FUNCTION DECLARATION 
+   function sayHello()      //this is the declaration of the function
+   {
+   	   console.log("Hello");
+   }
+
+   function sayHello().   //calling of the function
+
+   ONLY DECLARATIPN OF FUNCTION WOULD'NT BE ENOUGH WE NEED TO 
+   CALL THE FUNCTION TOO TO SEE ANY RESULT
+
+2.) FUNCTION EXPRESSION
+    
+   Var sayBye=function()
+   {
+	console.log("Bye");
+   }
+sayBye();
+
+3.) 
+   function sing(song)
+   {
+       console.log(song);
+   }
+   sing("jsdjhsjdh");
+   sing("jbdjbsljnnfls");
+   sing("jsdjhsjdh");
+   sing("jbdjbsljnnfls");
+   
+   function multiply(a,b)
+   {
+       return a*b;
+    }
+   multiply(2,3);
+   multiply(4,5);
+
+
+#JAVASCRIPT DATA STRUCTURES
+
+1.) ARRAYS
+var list=["dog", "cat", "lion", "tiger"];
+console.log(list[0]);
+console.log(list[1]);
+console.log(list[2]);
+console.log(list[3]);
+
+
+
+var numbers=[1,2,3,4];
+var booleans=[true, false];
+var functionList=[function apple(){
+    console.log("apple");
+}];
+
+
+var mixedList=[1, "cat", true,function apple(){
+    console.log("apple");
+} ];
+
+
+
+var list=["dog", "cat", "lion", "tiger"];
+list.push("elephant").  //inserts elephant at last 
+5
+list
+(5) ['dog', 'cat', 'lion', 'tiger', 'elephant']
+list.shift()         // removes dog from start
+'dog'
+
+
+2.) OBJECT
+  var user=
+ {
+    name:"Gaurav",
+    age: 23,
+    hobby: "reading",
+    isMarried:false
+ }
+ 
+To add new attribute to the object we can just write
+user.favouritefood="apple";
+
+
+
+//LOOPS IN JAVASCRIPT
+1.) FOR LOOP
+
+todo=[ "clean room", "brush teeth", "exercise", "study javascript"
+      , "eat healthy"];
+
+
+for(var i;i < todo.length;i++)
+{
+	
+}
+
+
+2.) WHILE LOOP
+
+Var count=0;
+while(count<10)
+{
+	console.log(count);
+	count++;
+}
+ 
+
+3.) DO WHILE LOOP
+
+var counter=10;
+do{
+    console.log(counter);
+    counter--;
+}while(counter>0);
+
+4.) FOR EACH LOOP
+
+Todo.forEach(function(i)
+{
+Console.log(i);
+})
+
+Or we can write
+Todo.forEach(function(todo)
+{
+Console.log(todo);
+})
+
+
+
+
+
+
+
+
+
+
+var database=[
+{
+    username:"Gaurav",
+    password:"Gaurav@2001"
+}
+];
+
+var newsfeed=[
+    {
+        username: "bobby",
+        password: "so tired"
+    },
+    {
+        username: "sally",
+        password: "so cool"
+    },
+
+];
+
+var username=prompt("Enter username");
+var password=prompt("Enter password");
+
+
+
+function signin(user, pass)
+{
+    if(username===database[0].username && pass===database[0].password)
+    {
+        console.log(newsfeed);
+    }
+    else
+    {
+        alert("Wrong Username or Password");
+    }
+}
+
+signin(username, password);
+
+/*
+if(username==="Gaurav" && password==="Gaurav@2001")
+{
+    alert("Welcome");
+}
+else
+{
+    alert("Wrong Username or Password");
+}*/
+
+
+
+
+JAVASCRIPT KEYWORDS
+-----------------
+break
+case
+catch
+class
+const
+continue
+debugger
+default
+delete
+do
+else
+export
+extends
+finally
+for
+function
+if
+import
+in
+instanceof
+new
+return
+super
+switch
+this
+throw
+try
+typeof
+var
+void
+while
+with
+yield
+
